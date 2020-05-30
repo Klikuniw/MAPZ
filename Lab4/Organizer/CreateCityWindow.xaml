@@ -1,0 +1,20 @@
+﻿<Window x:Class="Organizer.CreateCityWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Organizer"
+        mc:Ignorable="d"
+        xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="CreateCityWindow" Height="250" Width="400">
+    <StackPanel VerticalAlignment="Center">
+        <TextBox Name="CityName" materialdesign:HintAssist.Hint="Name"
+                 Margin="50 0" VerticalAlignment="Center" FontSize="16"></TextBox>
+        <ComboBox Name="Level" Margin="50 10" materialdesign:HintAssist.Hint="Level" FontSize="16">
+            <ComboBoxItem Content="Easy"/>
+            <ComboBoxItem Content="Default"/>
+            <ComboBoxItem Content="High"/>
+        </ComboBox>
+        <Button Name="AddCityButton" Click="AddCityButton_OnClick" Margin="70 5">Add</Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+  <city name="1">
+	<buildings>
+		<building text="Change something" deadline="14.07.2020 13:04:16">
+		</building>
+		<building text="Do this" deadline="11.08.2020 13:04:16">
+		</building>
+		<building text="Fix something" deadline="10.02.2020 13:04:16">
+		</building>
+	</buildings>
+	
+	<army>
+		<elf hp="100" armor="100"></elf>
+		<elf hp="100" armor="100"></elf>
+		<warrior hp="90" armor="100"></warrior>
+		<warrior hp="90" armor="100"></warrior>
+		<warrior hp="100" armor="15"></warrior>
+	</army>
+	
+  </city>
+  
+  
+  <city name="2">
+	<buildings>
+		<building text="Fix bug" deadline="10.03.2021 13:04:16">
+		</building>
+	</buildings>
+	
+	
+	
+  </city>
+</doc>
